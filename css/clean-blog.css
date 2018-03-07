@@ -154,12 +154,16 @@ hr.small {
   color: red;
 }
 
-/* CHANGE THE PADDING TO SHOW MORE OF THE PICTURE OR LESS */
+/* This is where to modify the banner size */
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 200px 0;
+    /*padding: 200px 0;*/
+    height: 75vh;
+    min-height: 500px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 .intro-header .site-heading,

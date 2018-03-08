@@ -49,7 +49,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="webinformation.html">Over View</a>
+                        <a href="webinformation.html">OverView</a>
                     </li>
                     <li>
                         <a href="sites and apps.html">WebSites vs WebApps</a>
@@ -72,14 +72,11 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
+    <header class="intro-header" style="background-image: url('../img/Banners/webfundamentals banner.png')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Man must explore, and this is exploration at its greatest</h1>
-                        <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
-                        <span class="meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</span>
                     </div>
                 </div>
             </div>
@@ -91,63 +88,213 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>Intro sentence</p>
 
                     <h2 class="section-heading">Introduction to the Web</h2>
                         <hr>
                         <h3>Understanding how the web works</h3>
-                            <p>In order to create efficient websites, you must understand the underlying processes of the web. These include: hosting, serving, and rendering. A common misconception is that the internet is equivalent to the web, when in reality that is not true. The web is interactions between clients and servers, where the servers deliver the content while the clients show the content. There are many different web servers to handle the different types of data and services.</p>
+                            <ul>
+                                <li>In order to create efficient websites, you must understand the underlying processes of the web.</li>
+                                <li>These include: hosting, serving and rendering</li>
+                                <li>Internet != (not equal to) the web</li>
+                                <li>The web is interactions between clients and servers</li>
+                                <li>Servers deliver the content while clients request and show the content</li>
+                                <li>Lots web servers to handle the different types of data and services</li>
+                            </ul>
                         <hr>
 
                         <h3>Working with clients and servers</h3>
-                            <p>Whenever you visit a website, either through clicking or typing, a request to show the content of that particular website is made.</p>
-                            <dl>
-                                <dt>URL</dt>
-                                <dd>Uniform resource locator</dd>
-                                <br>
-                                <dt>DNS</dt>
-                                <dd>Domain Name Server</dd>
-                            </dl>
-                            <p>Request (URL) are made to DNS which then is turned into an IP address.
-                            HTML text is rendered first, followed by CSS/images, and then Javascript scripts. Static sites just require the content that is requested.
-                            Dynamic sites must be processed by a web app before it can rendered.</p>
+                            <ul>
+                                <li>Whenever you visit a website, either through clicking or typing, a request to show the content of that particular website is made.</li>
+                                <li>URL - Uniform resource locator</li>
+                                <li>DNS - Domain Name Server</li>
+                                <li>Request (URL)  made to DNS which then is turned into an IP address</li>
+                                <li>HTML text is rendered first, followed by CSS/images, and then Javascript </li>
+                                <li>Static sites just require the content that is requested.</li>
+                                <li>Dynamic sites must be processed by a web app before it can rendered.</li>
+                            </ul>
                         <hr>
 
                         <h3>The DNS and why it matters</h3>
-                            <p>A website is assigned a unique IP address. This helps identify its location. However, IP addresses are cubersome to work with, for humans at least. They are made of a series of numbers, which can be hard to remember. To make it easier, websites are given a unique domain name that is connected to it's IP.</p>
-                            <p>The process goes like this: Domain name sent to a name server -> server finds address -> server returns the IP address</p>
-                            <p>The DNS system is a database that is distributed across the world. First DNS database that is contacted is the ISP default DNS. If not found in the default, then it is checked through the root name servers. DNS cahcing helps speed up the process. If DNS is not handled correctly, then no one will be able to access your website. An important fact to remember is that DNS servers refresh their cache every 24 hours.</p>
+                            <ul>
+                                <li>A website is assigned a unique IP address</li>
+                                <li>Helps identify its location</li>
+                                <li>IP addresses are cumbersome to work with, for humans at least. </li>
+                                <li>To make it easier, websites are given a unique domain name that is connected to it’s IP.</li>
+                                <li>Domain name sent to a name server → server finds address → server returns the IP address → IP address helps find the website you wanted</li>
+                                <li>DNS system is a database thats distributed across the world.</li>
+                                <li>First DNS database that is contacted is the ISP default DNS. </li>
+                                <li>If not found in the default, then it is checked through the root name server</li>
+                                <li>DNS caching helps speed up the process.</li>
+                                <li>If DNS is not handled correctly, then no one will be able to acces your website.</li>
+                                <li>DNS servers refresh their cache every 24 hours. </li>
+                            </ul>
                         <hr>
 
                         <h3>Internet Protocols</h3>
-                            <p>HTTP - Hyptertext transfer protocol</p>
-                            <p>Standard for transferring resources 
+                            <ul>
+                                <li>HTTP - Hypertext transfer protocol</li>
+                                <li>Standard for transferring resources</li>
+                                <li>Browser clients and web server are both HTTP(S) based</li>
+                                <li>Other common web protocols are: FTP (File transfer Protocol), SMTP (Simple Mail Transfer Protocol), and RTP (Real Time Transport Protocol)</li>
+                                <li>HTTP is a one way stateless protocol.</li>
+                                <li>FTP differs from HTTP because FTP connects to a file server to help download or upload files. HTTP has trouble transmitting or receiving large files.</li>
+                                <li>SMTP is used to send emails while POP (Post Office Protocol) is used for receiving.</li>
+                                <li>RTP is for delivering audio and video.</li>
+                                <li>For HTTP, once a request is made and received, it is forgotten by both parties.</li>
+                                <li>Storing data must be done through another way. </li>
+                                <li>Cookies are small text files that the website writes on the client machine.</li>
+                                <li>HTTPS is HTTP with a security layer on top. </li>
+                            </ul>
                         <hr>
 
                         <h3>Anatomy of a URL</h3>
-                            <p>lorem ipsum dolor</p>
+                            <ul>
+                                <li>Web link example: http://www.lynda.com</li>
+                                <li>Http: This is the protocol. Tells the browser to use HTTP for the protocol</li>
+                                <li>Middle part is the link (www.lynda.com)</li>
+                                <li>Also known as resource name. </li> 
+                                <li>‘Www’ is the subdomain, while ‘lynda’ is the domain name</li>
+                                <li>Domain name is what the browser uses to check with the DNS to see if it exists.</li>
+                                <li>‘Com’ is the top level domain.</li>
+                                <li>Subdomain is a mostly a thing of the past. Often times it isn’t required anymore</li>
+                                <li>Many different subdomains, not just www. Server admin can create subdomains whenever they want</li>
+                                <li>A url also specifies the path on the server and port</li>
+                                <li>Most servers default to port :80</li>
+                                <li>If needed to include them, just append them after the top level domain with a colon in between</li>
+                                <li>Can also pass in parameters to the server using the url</li>
+                                <li>Parameters are called name-value pairs.</li>
+                                <li>Url parameters are often passed in by form submittals or user clicking on specific areas due to the complexity of them.</li>
+                            </ul>
                         <hr>
 
                         <h3>How Browsers Work</h3>
-                            <p>lorem ipsum dolor</p>
+                            <ul>
+                                <li>Browsers use the HTTP to communicate with web servers and request content</li>
+                                <li>Whenever a link is clicked, the browser sends a request for a document</li>
+                                <li>One the browser receives the requested content, it then renders it.</li>
+                                <li>Additional content is then rendered if the browser supports the file types ( either by default or through extensions)</li>
+                                <li>Client side scripting is then executed when it gets triggered</li>
+                                <li>Browser UI - contains visuals such as address bars and interface components</li>
+                                <li>Rendering engine parses HTML/CSS and controls the rendering process</li>
+                                <li>Built in networking components that are used to communicate with common internet protocols</li>
+                                <li>Cookies are often used as the data storage component</li>
+                                <li>Javascript interpreter executes JS code</li>
+                                <li>Five most common rendering engines: Trident, Gecko, Presto, WebKit and Blink.</li>
+                                <li>Blink is based on WebKit but being developed by Google</li>
+                                <li>Web designers should test pages in multiple versions of the same browser. This is because older browser versions use older rendering engine versions.</li>
+                            </ul>
                         <hr>
 
                         <h3>Web Standards and the W3C</h3>
-                            <p>lorem ipsum dolor</p>
+                            <ul>
+                                <li>Back in the day, web browsers built and used proprietary features.</li> 
+                                <li>This caused headaches and issues since web designers had to make their pages compatible with each browser.</li>
+                                <li>Web Standards Project created in 1998</li>
+                                <li>Supported the World Wide Web Consortium (W3C)</li>
+                                <li>Issued recommendations that everyone should follow</li>
+                                <li>Beneficial to learn web standards and stay up to date with them, since it’ll give you a better guarantee that your websites will be consistent across browsers.</li>
+                                <li>Best to take into account the web standards when designed, modifying as needed per browser.</li>
+                                <li>The W3C website lists the specifications for languages.</li>
+                            </ul>
                         <hr>
 
                         <h3>Web Server Basics</h3>
-                            <p>lorem ipsum dolor</p>
+                            <ul>
+                                <li>Web server is just a computer with specific software and hardware.</li>
+                                <li>All web servers have a IP address. The websites the servers host are all registered through a DNS.</li>
+                                <li>Virtual hosting allows a webserver to serve more than just one website.</li>
+                                <li>Shared hosting environment - website is hosted on a web server that hosts other websites as well.</li>
+                                <li>Dedicated hosting - Your website has it’s own server</li>
+                                <li>Websites are stored as a series of files and folders. The HTTP retrieves these files/folders upon request</li>
+                                <li>Dynamic websites must first process data from database and run any server side scripts.</li>
+                                <li>Web Stack - Stack of software that all works together to serve and process web pages.</li>
+                                <li>Not all servers use the same stack.</li>
+                                <li>Common web stack includes: OS, web server, database server, and programming language</li>
+                                <li>LAMP stack - Linux, Apache, MySQL, PHP/Perl</li>
+                                <li>Most commonly used web stack, due to each part of the stack is open-source</li>
+                                <li>WAMP stack - Windows, Apache, MySQL, PHP/Perl</li>
+                                <li>Make sure that your choice of hosting service has a compatible web stack for your scripting and database needs.</li>
+                            </ul>
                         <hr>
-
-
 
 
                     <h2 class="section-heading">Front-End Technology</h2>
                         <hr>
-                        <h3>Working with clients and servers</h3>
-                            <p>lorem ipsum dolor</p>
+                        <h3>Front-End Design</h3>
+                            <ul>
+                                <li>Front-end deals with what people see and interact with.</li>
+                                <li>Back-end deals with the processes that make things work.</li>
+                                <li>Client side and server side often deal with the same things and are used with front and back end</li>
+                                <li>Front-end languages include: HTML/CSS and Javascript</li>
+                                <li>A lot more development is being done within the browser compared to the past</li>
+                                <li>New and powerful Javascript libraries have allowed tasks to be done in-browser instead of on a remote server.</li>
+                                <li>Front-end designers are responsible for: visual standards, structuring content, ensuring sites accessibility, typography, page layout, interactivity.</li>
+                            </ul>
+                        <hr>
 
+                        <h3>HTML, The language of the web</h3>
+                            <ul>
+                                <li>HTML 2.0 specs released in 1995</li>
+                                <li>First instance of quote/unquote style</li>
+                                <li>HTML 4.0 stabilized the language as it was plagued by lots of proprietary tags during HTML 3.0</li>
+                                <li>XHTML 1.0 released in 2000, designed to replace HTML</li>
+                                <li>XHTML 2.0 was not backwards compatible</li>
+                                <li>WHATWG ( Web Hypertext Application Technology Working Group ) continued development of HTML, eventually creating HTML5</li>
+                                <li>HTML5 was recognized by W3C</li> 
+                                <li>Unlike XHTML 2.0, HTML5 is backwards compatible with previous versions</li>
+                                <li>Considered the new standard for HTML</li>
+                            </ul>
+                        <hr>
+
+                        <h3>Structuring HTML</h3>
+                            <ul>
+                                <li>HTML uses tags to structure content and gives elements meaning</li>
+                                <li>At top, you’ll find a document type declaration. It specifies the document type, such as HTML</li>
+                                <li>DTD occurs before anything else.</li>
+                                <li>Tells the client what type of HTML it’s using so that the client can render it correctly</li>
+                                <li>Opening and closing HTML tags - bread of a sandwich</li>
+                                <li>Opening/closing head tag - the condiments</li>
+                                <li>Head tags include: Meta tags contain keywords or descriptions</li>
+                                <li>Links to external resources</li>
+                                <li>Head tags don’t contain just one thing. What is found in the head tags is often just to make the page appear as you want it to, or function as you want.</li>
+                                <li>The visual elements are actually located in the body tags</li>
+                            </ul>
+                        <hr>
+
+                        <h3>Controlling Presentation through CSS</h3>
+                            <ul>
+                                <li>CSS - Cascading Style Sheets</li>
+                                <li>Controls the presentation of HTML documents</li>
+                                <li>Collection of formatting rules, contained in an external file</li>
+                                <li>Styles can be found in either external files, embedded in head of HTML docs</li>
+                                <li>Styles can overwrite each other if conflicts arise</li>
+                                <li>Can deploy CSS by linking to an external CSS file</li>
+                                <li>Inside CSS file are a collection of rules. They identify which element on the page is to be styled</li>
+                                <li>CSS made of 2 parts - selector and declaration</li>
+                                <li>Selector tells which element(s) to style</li>
+                                <li>Declaration tells formatting instructions</li>
+                                <li>All rules are made of 2 parts - the property and value</li>
+                                <li>CSS brings highly modular design</li>
+                                <li>Can change HTML and CSS independently of each other</li>
+                                <li>Adds portability to content, since CSS can be used to change layout based on screen size/orientation</li>
+                            </ul>
+                        <hr>
+
+                        <h3>Client Side Scripting With Javascript</h3>
+                            <ul>
+                                <li>Javascript adds interactivity and application functionality to sites</li>
+                                <li>Created in 1995 by Netscape</li>
+                                <li>Not related to Java in any way</li>
+                                <li>Can update data directly, dynamic menus, open new browser windows all in the browser.</li>
+                                <li>HTML is static so it can’t do any of that</li>
+                                <li>Javascript can be performed on the client side, as well as on the server side</li>
+                                <li>For example, Javascript can open up modal window when a user clicks on something.</li>
+                                <li>Javascript frameworks are Javascript libraries that contain pre-written functions and objects</li>
+                                <li>Help make interactive applications a lot easier for designers</li>
+                                <li>Each browser has its own JavaScript interpreter.</li>
+                                <li>Important to provide alternative content when JavaScript support is absent.</li>
+                            </ul>
+                        <hr>
                 </div>
             </div>
         </div>

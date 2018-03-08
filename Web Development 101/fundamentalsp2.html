@@ -49,7 +49,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="webinformation.html">Over View</a>
+                        <a href="webinformation.html">OverView</a>
                     </li>
                     <li>
                         <a href="sites and apps.html">WebSites vs WebApps</a>
@@ -72,7 +72,7 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
+    <header class="intro-header" style="background-image: url('../img/Banners/webfundamentals2 banner.png')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -91,40 +91,266 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
 
-                    <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
+                    <h2 class="section-heading">Front-End Technology</h2>
+                        <hr>
+                        <h3>Common Image Types</h3>
+                            <ul>
+                                <li>Four most commonly used image formats: JPG, GIF, PNG, SVG</li>
+                                <li>Need to find a balance between file sizes and quality of images</li>
+                                <li>Higher quality images take more bandwidth and vice-versa</li>
+                                <li>Bandwidth serious concern as we have low bandwidth connections but high-resolution displays (Phones/tablets)</li>
+                                <li>Browser must support image format to be able to display it. Most do since they have come standards.</li>
+                                <li>JPEG - Joint Photographic Experts Group</li>
+                                <li>Supports millions of colors - making it ideal for photos with lots of colors</li>
+                                <li>However, they are compressed with lossy compression which makes their image quality go down.</li>
+                                <li>Compressed each time they are saved.</li>
+                                <li>GIF - Graphics Interchange Format</li>
+                                <li>Support limited animation. 8-bit which means only 256 colors</li>
+                                <li>PNG - Portable Network Graphics</li>
+                                <li>Lossless and supports millions of colors</li>
+                                <li>High file sizes</li>
+                                <li>SVG - Scalable Vector Graphic Files</li>
+                                <li>Can resize without loss of image quality</li>
+                                <li>Written using SVG markup. Can be easily modified by web designers</li>
+                            </ul>
+                        <hr>
 
-                    <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
+                        <h3>What is an API</h3>
+                            <ul>
+                                <li>API - Application Programing Interfaces</li>
+                                <li>Written to provide a set of instructions and standards for using a specific service</li>
+                                <li>Usually written to allow developers an easier time to make an application or use services</li>
+                                <li>Allows websites to have functionality far beyond what they normally could do</li>
+                                <li>Each API is slightly different</li>
+                                <li>APIs limit the type of data they expose</li>
+                                <li>APIs can be unreliable depending on who hosts it</li>
+                                <li>Creating API connected apps can be time consuming if the API changes while it is still being written.</li>
+                                <li>HTML5 introduced APIs such as geolocation, and drag & drop</li>
+                            </ul>
+                        <hr>
 
-                    <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
+                        <h3>HTML5 APIs</h3>
+                            <ul>
+                                <li>HTML5 was designed to allow integration of many capabilities that web apps needed.</li>
+                                <li>Media API allows controlling loading and playback of media</li>
+                                <li>Text Track API controls subtitles/captions</li>
+                                <li>Drag & drop API allows elements to be draggable within the browser.</li>
+                                <li>App Cache API lets persistent web apps to keep working even if they are disconnected</li>
+                                <li>Geolocation access location of users</li>
+                                <li>Canvas API allows you to draw on the browser.</li>
+                                <li>By having a standardized set of APIs, designers can build complex interfaces that function more like an application than a simple website</li>
+                            </ul>
+                        <hr>
 
-                    <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
+                        <h3>Web Fonts</h3>
+                            <ul>
+                                <li>Previously needed to display fonts that were installed on the client's machine</li>
+                                <li>Web-fonts automatically download and temporarily install fonts on the client</li>
+                                <li>@font-face technique</li>
+                                <li>Requests a font from the web server which is downloaded and temp installed on the browser</li>
+                                <li>Had legal issues and concerns with end users</li>
+                                <li>Led to development of new font formats such as EOT or WOFF</li>
+                                <li>These two compress fonts and optimize for screen usage</li>
+                                <li>Can use Typekit to avoid problems with browser implementations or legality</li>
+                                <li>Front-end designers can now decide what type of typefaces they want to use, allowing for creation of visually sophisticated web</li>
+                            </ul>
+                        <hr>
 
-                    <h2 class="section-heading">The Final Frontier</h2>
+                    <h2 class="section-heading">Back-End Technology</h2>
+                        <hr>
+                        <h3>Server-Side Scripting</h3>
+                            <ul>
+                                <li>Any scripting or programming that runs on a web server is referred to as server-side scripting</li>
+                                <li>Examples: processing form, registering new user, booking a hotel room</li>
+                                <li>CGI scripts were used in the earlier days</li>
+                                <li>CGI - Common Gateway Interface, created to run scripts from languages such as C+ or Perl</li>
+                                <li>Web page first processes the script before page is rendered</li>
+                                <li>Scripts are hidden from the user, creating a layer of security between data and source code.</li>
+                                <li>Web server most host the application. This can lead to issues when the server is hit by lots of requests, such as slowdown.</li>
+                                <li>Client side scripting has become more popular due to the issues that Server side scripting presents</li>
+                            </ul>
+                        <hr>
 
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+                        <h3>The important of PHP</h3>
+                            <ul>
+                                <li>PHP - Hypertext Preprocessor</li>
+                                <li>Server side processing language</li>
+                                <li>Most widely used language for building dynamic sites</li>
+                                <li>Wordpress uses PHP</li>
+                                <li>Pairs well with Apache and mySQL databases</li>
+                                <li>All 3 are open-source which allowed anyone to create web servers</li>
+                                <li>PHP code embedded within a pages HTML</li>
+                                <li>Any HTML that ends with .php/.asp/.aspx/.cfm requires it to be processed first</li>
+                                <li>Has identifier to distinguish between processing code and HTML code</li>
+                                <li>Echo function just displays whatever the result was on the actual page</li>
+                                <li>PHP is invisible to the user.</li>
+                            </ul>
+                        <hr>
 
-                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
+                        <h3>Other Popular server Languages</h3>
+                            <ul>
+                                <li>JSP - Java server pages.</li>
+                                <li>Server side app tool developed by Sun</li>
+                                <li>JSP code embedded directly into HTML</li>
+                                <li>Scripts are a combination of XML and java scriplets</li>
+                                <li>JSP can be ported to almost any server environment</li>
+                                <li>Lots of java platforms and cost of hosting varies greatly</li>
+                                <li>.NET describes an entire app framework</li>
+                                <li>.NET allows devs to build large scale apps for web/desktop</li>
+                                <li>Considerably more complicated than PHP</li>
+                                <li>Sites built using .NET requires a web server running windows</li>
+                                <li>ColdFusion is added to HTML using own markup language</li>
+                                <li>ColdFusion is simpler than other server languages, however it is not free</li>
+                                <li>Python not an exclusive web language, but it contains powerful web related libraries</li>
+                                <li>Often used to create large dynamic websites and web apps</li>
+                                <li>Ruby is a general purpose programming language which can be used for lots of different tasks</li>
+                                <li>Choosing a platform is broken down to 3 main things: Cost, hosting availability, ease of use.</li>
+                            </ul>
+                        <hr>
 
-                    <blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+                        <h3>Dealing with Data</h3>
+                            <ul>
+                                <li>Typically, data can be stored on the client as txt files</li>
+                                <li>Browsers are limited to using cookies, small text files. </li>
+                                <li>This is due to security concerns</li>
+                                <li>Web storage API, introduced by HTML5</li>
+                                <li>Websites store key value pairs within the browser.</li>
+                                <li>XML is extensible markup language. Can store any data.</li>
+                                <li>JSON - Javascript Object Notation</li>
+                                <li>Stores simple values in a txt file.</li>
+                                <li>Both implement use of JavaScript to store/retrieve data</li>
+                                <li>Best way to store data is by using databases</li>
+                                <li>Databases contain lots of different tables, which can relate to each other. </li>
+                                <li>This allows you to create complex interactions between data</li>
+                                <li>Databases aren’t just limited to text either.</li>
+                                <li>Indexed databases and Web SQL databases store databases in the browser</li>
+                                <li>Relational databases and non-relational databases</li>
+                                <li>Relational databases store data in tables that relate to each other based on key columns of information</li>
+                                <li>Relational databases driven by something called schema. </li>
+                                <li>Schema are troublesome to modify.</li>
+                                <li>Non-relational databases do not have schemas and thus do not have this issue</li>
+                            </ul>
+                        <hr>
 
-                    <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+                        <h3>Using SQL Databases</h3>
+                            <ul>
+                                <li>SQL - Structured query language</li>
+                                <li>The standard language for managing and retrieving information from databases</li>
+                                <li>Web apps typically use it to update, create, delete, or retrieve information from relational databases</li>
+                                <li>Relational databases most common form of databases used with web apps</li>
+                                <li>Store data in one or more tables</li>
+                                <li>SQL uses simple logical syntax making it very easy to understand</li>
+                                <li>Examples: Insert, delete, update</li>
+                                <li>SQL queries are typically found as a string inside web application syntax and passed into the database as the web page is being processed</li>
+                            </ul>
+                        <hr>
 
-                    <h2 class="section-heading">Reaching for the Stars</h2>
+                        <h3>Content Management Systems</h3>
+                            <ul>
+                                <li>CMS - Content management system</li>
+                                <li>An app that helps control creation, publishing, and archiving a websites content</li>
+                                <li>Allows creation of groups of users who can do different levels of activities on the website</li>
+                                <li>Can add site functionality by installing modules</li>
+                                <li>Create templates that control layout of page</li>
+                                <li>CMS divide the page into sections, which allows multiple headers, footers, or content regions</li>
+                                <li>Content is stored in a database with the help of the CMS</li>
+                                <li>Use CMS to structure website and build navigation</li>
+                                <li>Update content through WYSIWYG editor (what you see is what you get) allows anyone to update and maintain the website’s contents, even non-technical ones</li>
+                                <li>Only specific people can edit the content, dictated by the users group level</li>
+                                <li>This can be extended to clients as well</li>
+                                <li>Most plugins are plug and play that add features to your website</li>
+                                <li>WordPress is a popular CMS</li>
+                            </ul>
+                        <hr>
 
-                    <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+                        <h3>Content Delivery Networks</h3>
+                            <ul>
+                                <li>Deliver content through a distributed network of servers</li>
+                                <li>CDNs distribute over a huge network instead of a single server</li>
+                                <li>Often ends up with thousands of servers located all over the world</li>
+                                <li>Network shares the load which makes it easier for sites to manage heavy traffic</li>
+                                <li>CDNs serve CSS and Javascript libraries primarily.</li>
+                                <li>Bootstrap CDN and other several types of CDNs serve specific resources</li>
+                                <li>Adding one adds another layer of complexity</li>
+                                <li>Using a CDN isn’t preferred when you need complete control over a website</li>
+                            </ul>
+                        <hr>
 
-                    <a href="#">
-                        <img class="img-responsive" src="img/post-sample-image.jpg" alt="">
-                    </a>
-                    <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+                        <h3>Cloud Services</h3>
+                            <ul>
+                                <li>Developers are creating applications and services that fundamentally change the way people interact with the internet</li>
+                                <li>Dropbox is a form of Cloud service</li>
+                                <li>It allows you to store or retrieve files as long as they are online</li>
+                                <li>Can access from anywhere, doesn’t have to be on your local machine</li>
+                                <li>Java, Ruby, .NET and Javascript are powering the majority of these services</li>
+                                <li>These services require servers which can handle huge amounts of traffic</li>
+                                <li>Must also be scalable</li>
+                            </ul>
+                        <hr>
 
-                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
+                        <h3>What is Github</h3>
+                            <ul>
+                                <li>Github is radically changing how people develop, publish and distribute content and applications online</li>
+                                <li>It offers a way to store, publish, and version control content</li>
+                                <li>Built around Git, an open source version control system created by Linus Torvalds</li>
+                                <li>It offers free and private commercial plans</li>
+                                <li>Once you’ve uploaded a file, it syncs to your local copy. Whenever a change is made, you must first check the changes.</li>
+                                <li>Only the changes are uploaded. At each stage, a version of the previous files is saved.</li>
+                                <li>Anyone can access your files and fork them, creating a own personal copy in their github repository. They can then develop separately from you</li>
+                                <li>Open source collaborative nature of Github has led to lots of new open source software</li>
+                            </ul>
+                        <hr>
 
-                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
+                    <h2 class="section-heading">Assembly Technologies</h2>
+                        <hr>
+                        <h3>JavaScript Libraries</h3>
+                            <ul>
+                                <li>HTML, CSS and JavaScript the three core languages for making content on the web</li>
+                                <li>Due to the increasing complexity of websites, various assembly technologies have been created to make it easier for web developers to create websites and apps</li>
+                                <li>JavaScript library is a collection of pre-written Javascript code. </li>
+                                <li>It adds methods and values for commonly performed tasks</li>
+                                <li>To use a library, you must include a link to it in the page</li>
+                                <li>Often served by CDNs</li>
+                                <li>The code that is contained in libraries have been extensively tested by many other users</li>
+                                <li>The libraries are also often free</li>
+                                <li>Shouldn’t always use them. Can create a lot of overhead if doing simple tasks</li>
+                            </ul>
+                        <hr>
 
-                    <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+                        <h3>Frameworks and boilerplates</h3>
+                            <ul>
+                                <li>There are collections of packaged HTML, CSS, and Javascript</li>
+                                <li>Main use is to make authoring sites easier</li>
+                                <li>Contain CSS files that have predefined rules for layout, typography.</li>
+                                <li>HTML contain default starting structure for websites</li>
+                                <li>Javascript files provide functionality such as modal windows</li>
+                                <li>Boilerplate refers to a set of templates</li>
+                                <li>HTML5 is the boilerplate, focusing on providing starter pages</li>
+                                <li>Framework are a collection of assets that provide a system for building sites</li>
+                                <li>Frameworks add the most overhead, but give the most complete set of tools to build entire front end of projects</li>
+                                <li>Focus is creating a stable base, leaving the details such as styling to the designer</li>
+                                <li>Useful for creating prototypes, and helps speed up production.</li>
+                                <li>Not every company allows the use of them though</li>
+                            </ul>
+                        <hr>
+
+                        <h3>CSS preprocessors</h3>
+                            <ul>
+                                <li>CSS lacks many features that authors require and have requested</li>
+                                <li>CSS preprocessors is a scripting language that allows the extension of CSS with new syntax</li>
+                                <li>Compiles the script back into a regular CSS once run through the processor</li>
+                                <li>A 2 step process</li>
+                                <li>Compile at runtime</li>
+                                <li>Benefits include: Adding functionality that is not built in, allow reusable blocks of code</li>
+                                <li>Big 3 are: Sass, Stylus, and Less.</li>
+                                <li>Reasons not to use: everyone must be familiar with it. Handing it off to others could lead to some hassle</li>
+                                <li>Adds another layer of complexity</li>
+                                <li>Can lead to code bloating</li>
+                                <li>Most of the features are making their way into native CSS</li>
+                            </ul>
+                        <hr>
+                        
                 </div>
             </div>
         </div>

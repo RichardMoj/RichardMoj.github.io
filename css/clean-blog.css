@@ -170,17 +170,24 @@ hr.small {
 .intro-header .page-heading {
   text-align: center;
 }
+
+
+/* MODIFY THIS TO MOVE TEXT AROUND */
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
   margin-top: 0;
+  line-height: 5.1;
   font-size: 50px;
+  font-family: 'Times New Roman';
 }
+
+/* MODIFY THIS TO MOVE TEXT AROUND */
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
   font-size: 48px;
-  line-height: 1.1;
+  line-height: 4.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Times New Roman', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
   color:blue;
@@ -188,7 +195,7 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 50px;
   }
 }
 .intro-header .post-heading h1 {

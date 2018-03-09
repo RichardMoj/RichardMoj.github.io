@@ -74,16 +74,18 @@ hr.small {
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: green;
+    color: white;
     padding: 20px;
+    text-shadow: 2px 2px black
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: purple;
+    color: white;
     padding: 20px;
+    text-shadow: 2px 2px black
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
@@ -151,7 +153,8 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: blue;
+  color: white;
+  text-shadow: 2px 2px black
 }
 
 /* This is where to modify the banner size */
@@ -190,7 +193,8 @@ hr.small {
   font-family: 'Arial','Times New Roman', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
-  color:red;
+  color:white;
+  text-shadow: 2px 2px black
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
@@ -200,6 +204,11 @@ hr.small {
 }
 .intro-header .post-heading h1 {
   font-size: 35px;
+  line-height: 10;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black
+
 }
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
@@ -223,7 +232,8 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
-    font-size: 55px;
+    font-size: 40px;
+    font-family: 'Arial'
   }
   .intro-header .post-heading .subheading {
     font-size: 30px;
